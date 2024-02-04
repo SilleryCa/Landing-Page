@@ -1,3 +1,49 @@
 * {
-    border: 1px dotted red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    color: whitesmoke;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img {
+    width: 40px;
+    height: auto;
+    flex-grow:  0;
+}
+
+.header ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.intro-text {
+    width: 600px;
+}
+
+.header, .footer, .intro{
+    background-color: #0D0221;
+    color: whitesmoke;
 }
