@@ -4,15 +4,9 @@
 
 body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
-
-/* body div {
-    padding: 200px 200px;
-}
-
-body div div {
-    padding: 0px;
-} */
 
 a {
     color: whitesmoke;
@@ -23,6 +17,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 50px;
 }
 
 .header img {
@@ -42,7 +37,7 @@ a {
 .intro{
     display: flex;
     justify-content: space-between;
-    padding: 50px 0;
+    padding: 0 50px 100px 50px;
     align-items: center;
 }
 
@@ -83,10 +78,13 @@ button {
     font-size: 34px;
     font-weight: 700;
     margin-bottom: 40px;
+    margin-top: 40px;
+    padding: 25px 50px 0xp 50px;
 }
 
 .text {
     max-width: 250px;
+    font-size: 18px;
 }
 
 .images {
@@ -108,12 +106,15 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #A6CFD5;
+    padding: 70px 50px 70px 50px;
+    margin-top: 50px;
 }
 
 .quote h4 {
     font-size: 36px;
     font-weight: lighter;
     margin: 0;
+    text-align: center;
 }
 
 .quote p {
@@ -125,7 +126,7 @@ button {
     justify-content: center;
     align-items: center;
     color: whitesmoke;
-    padding: 50px;
+    padding: 100px 50px;
 }
 
 .centered-sign-up {
@@ -157,6 +158,7 @@ button {
     flex: 1;
     justify-content: center;
     align-items: center;
+    padding: 25px;
 }
 
 .header, .footer, .intro{
